@@ -9,5 +9,8 @@ export const styles = StyleSheet.create({
     },
     userIcon: {
         marginEnd: 12
+    },
+    rowContainer: {
+        flexDirection: 'row'
     }
 })

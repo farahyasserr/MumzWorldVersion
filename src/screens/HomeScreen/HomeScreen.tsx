@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native'
 import { HomeStackNavType } from '../../navigation/Home/HomeStack'
 import { useGetProductsList } from './hooks/useGetProductsList'
 import colors from '../../theme/colors'
-import HomeHeader from './blocks/HomeHeader/HomeHeader';
+import HomeHeader from './blocks/HomeHeader';
 
 const HomeScreen = () => {
     const navigation = useNavigation<HomeStackNavType<'Home'>>();

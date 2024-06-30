@@ -8,10 +8,11 @@ import colors from '../../../../theme/colors'
 import { styles } from './HomeHeader.styles';
 
 const HomeHeader = () => {
+
     const comingSoonAlert = () => {
         Alert.alert("coming soon!")
-
     }
+
     return (
         <View style={styles.mainContainer}>
             <TouchableOpacity onPress={comingSoonAlert}>
@@ -24,7 +25,7 @@ const HomeHeader = () => {
                 uri={images.logo}
             />
 
-            <View style={{ flexDirection: 'row' }}>
+            <View style={styles.rowContainer}>
                 <TouchableOpacity style={styles.userIcon} onPress={comingSoonAlert}>
                     <Feather name='user' size={20} color={colors.grey} />
                 </TouchableOpacity>
