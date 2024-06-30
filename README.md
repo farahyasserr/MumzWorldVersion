@@ -20,13 +20,12 @@
 ## Enhancements that can be done to the API
 
 - Add pagination
-- too many nested objects until I reach list data
+- Too many nested objects until I reach list data~
 - Pass language in params instead of getting 2 objects for 2 languages
 - Prices could be simpler and more straightforward
 - Too many nested items: e.g. product.base_price_range.minimum_price.regular_price.value - minimum_price can be removed for example
 - Remove __typename attribute if it’s not needed
-- allery images have the wrong link
-
+- Gallery images should be  included
 
 ## Important Notes
 - This is work of 2.5 days (started working on task in weekend due to personal stuff)
@@ -35,3 +34,12 @@
 - Product details of course should be based on id, but since I was asked to use this API that’s why product details screen is always the same
 - Expo Go resets RTL preferences when opening the launcher or individual projects. To test RTL dynamically, please use the development build not Expo Go.
 Translations are only done inside product details screen
+
+## Development build link
+https://expo.dev/accounts/farahyasserr/projects/MumzWorldClone/builds/8bebbe3e-bd62-4d86-b91c-c0980f72869e
+<img width="654" alt="Screenshot 2024-06-30 at 11 46 27 PM" src="https://github.com/farahyasserr/MumzWorldVersion/assets/47539863/7d776c0e-8b60-4bb1-82c2-b936700cb286">
+
+
+
+
+
