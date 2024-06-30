@@ -12,16 +12,33 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mumzWorld.mumzWorldClone",
+      "infoPlist": {
+        "ExpoLocalization_supportsRTL": true
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mumzWorld.mumzWorldClone",
+      "permissions": [
+        "INTERNET"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "supportsRTL": true,
+      "eas": {
+        "projectId": "438015ca-5aab-47c9-baaf-0e4ef1f479b6"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
