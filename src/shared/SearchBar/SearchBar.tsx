@@ -1,6 +1,6 @@
 import { AntDesign, Ionicons } from '@expo/vector-icons';
 import React from 'react'
-import { TextInput, TouchableOpacity, View } from 'react-native'
+import { I18nManager, TextInput, TouchableOpacity, View } from 'react-native'
 import colors from '../../theme/colors';
 import { styles } from './SearchBar.styles'
 
@@ -20,6 +20,7 @@ const SearchBar = ({ onChangeText, onClear, searchValue }: SearchBarProps) => {
                 placeholderTextColor={colors.grey}
                 value={searchValue}
                 style={styles.textInput}
+                textAlign={I18nManager.isRTL ? 'right' : 'left'}
             />
             {onClear &&
                 <TouchableOpacity onPress={onClear}>
