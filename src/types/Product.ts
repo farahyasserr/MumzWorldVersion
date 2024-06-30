@@ -1,9 +1,9 @@
 
 interface MinimumPrice {
     __typename: string
-    final_price?: CurrencyValue //to check
+    final_price?: CurrencyValue
     regular_price: CurrencyValue
-    discount?: Discount //to check
+    discount?: Discount
 }
 
 interface Discount {
@@ -64,8 +64,8 @@ interface ProductPrices {
 
 interface ProductReviews {
     __typename: string;
-    items: any[]; // Define this based on your data structure
-    page_info: any; // Define this based on your data structure
+    items: any[];
+    page_info: any;
 }
 
 interface ProductImage {
@@ -79,20 +79,20 @@ export interface SimpleProduct {
     base_price_range: PriceRange;
     brand: number;
     brand_info: BrandInfo;
-    categories: any[]; // Define this based on your data structure
+    categories: any[];
     cautions: string;
     cross_border_product: CrossBorderProduct;
     description: ComplexTextValue;
     dimensions: string;
     features: string;
     id: number;
-    is_yalla: any[]; // Define this based on your data structure
+    is_yalla: any[];
     language: string;
-    media_gallery_entries: any[]; // Define this based on your data structure
+    media_gallery_entries: any[];
     meta_description: string;
     meta_title: string;
     name: string;
-    options: any; // Define this based on your data structure
+    options: any;
     pkgdimensions: string;
     price: ProductPrices;
     price_range: PriceRange;
@@ -103,7 +103,7 @@ export interface SimpleProduct {
     relative_url: string;
     review_count: number;
     reviews: ProductReviews;
-    shipping_weight: any; // Define this based on your data structure
+    shipping_weight: any;
     sku: string;
     small_image: ProductImage;
     stock_status: string;
