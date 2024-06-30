@@ -5,19 +5,28 @@ export const styles = StyleSheet.create({
     mainContainer: {
         marginBottom: 18
     },
-    paginationContainer: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        marginTop: 8
+    image: {
+        width: '100%',
+        height: '100%'
     },
-    paginationDot: {
-        width: 6,
-        height: 6,
-        borderRadius: 4,
-        backgroundColor: 'grey',
-        marginHorizontal: 4,
+    internalBadgeContainer: {
+        alignSelf: 'flex-start',
+        backgroundColor: colors.primary,
+        borderRadius: 100,
+        padding: 6
     },
-    activeDot: {
-        backgroundColor: colors.blue,
+    badgeMainContainer: {
+        position: 'absolute',
+        bottom: '5%',
+        left: '82%'
     },
+    discountText: {
+        color: colors.white,
+        fontWeight: 'bold',
+        fontSize: 13
+    },
+    carouselItemView: {
+        flex: 1,
+        justifyContent: 'center'
+    }
 })
